@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @birthday.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @birthday.lastname %>
+</p>
+
+<p>
+  <strong>Birthdate:</strong>
+  <%= @birthday.birthdate %>
+</p>
+
+<%= link_to 'Edit', edit_birthday_path(@birthday) %> |
+<%= link_to 'Back', birthdays_path %>
